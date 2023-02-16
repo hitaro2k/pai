@@ -788,14 +788,20 @@ button{
     }
     .customers--tree-volume__column{
         width: 131px;
+        height: 265px;
+        margin-bottom: 203px;
     }
     .customers--tree-efficiency__column{
         width: 130px;
         margin-left: 10px;
         margin-right: 10px;
+        height: 265px;
+        margin-bottom: 203px;
     }
     .customers--tree-uplift__column{
         width: 130px;
+        height: 265px;
+        margin-bottom: 203px;
     }
     .neon-plus{
         display: none;
@@ -861,14 +867,20 @@ button{
     }
     .customers--tree-volume__column{
         width: 115px;
+        height: 265px;
+        margin-bottom: 203px;
     }
     .customers--tree-uplift__column{
         width: 115px;
+        height: 265px;
+        margin-bottom: 203px;
     }
     .customers--tree-efficiency__column{
         width: 115px;
         margin-left: 5px;
         margin-right: 5px;
+        height: 265px;
+        margin-bottom: 203px;
     }
     .tree-neon--line-light-blue{
         width: 85px;
@@ -897,6 +909,9 @@ button{
     .tree-link--wrap-uplift{
         margin-top: 90px;
     }
+    .header-tree-text{
+        font-size: 11px;
+    }
 }
 @media(max-width:325px){
     .header-title-inners{
@@ -904,5 +919,63 @@ button{
     }
     .head-text-subtitle{
         font-size: 20px;
+    }
+    .customers--tree-volume__column{
+        width: 90px;
+        height: 265px;
+        margin-bottom: 203px;
+    }
+    .customers--tree-uplift__column{
+        width: 90px;
+        height: 265px;
+        margin-bottom: 203px;
+    }
+    .customers--tree-efficiency__column{
+        width: 90px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 265px;
+        margin-bottom: 203px;
+    }
+    .tree-neon--line-light-blue{
+        width: 60px;
+        height: 4px;
+    }
+    .tree-neon--line-blue{
+        width: 60px;
+        height: 4px;
+    }
+    .tree-neon--line-purple{
+        width: 60px;
+        height: 4px;
+    }
+    .tree-items--cube{
+        height: 17px;
+    }
+    .tree--text-volume{
+        font-size: 9px;
+        width: 80px;
+    }
+    .tree--text-efficiency{
+        font-size: 9px;
+        width: 81px;
+    }
+    .tree--text-uplift{
+        width: 78px;
+    }
+    .tree--link-volume{
+        font-size:7px;
+    }
+    .tree--link-efficiency{
+        font-size:7px;
+    }
+    .tree--link-uplift{
+        font-size:7px;
+    }
+    .tree-link--wrap-volume{
+        margin-top: 47px;
+    }
+    .tree-link--wrap-uplift{
+        margin-top: 70px;
     }
 }
