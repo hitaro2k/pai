@@ -116,7 +116,7 @@ button{
         display: none;
     }
     .menu-btn {
-        margin-left: 250px;
+        margin-left: 230px;
         display: block;
         width: 30px;
         height: 30px;
@@ -187,6 +187,9 @@ button{
     
     .menu li {
         list-style-type: none;
+    }
+    .nav-list{
+        margin-bottom: 40px;
     }
 }
 @media(max-width:375px){
@@ -1146,9 +1149,9 @@ button{
 
 }
 
-@media(max-width:435px){
+@media(max-width:425px){
     .demo-header-title{
-        font-size: 25px;
+        font-size: 22px;
     }
     .get-demo{
         padding: 12px;
@@ -1159,12 +1162,12 @@ button{
 }
 @media(max-width:375px){
     .demo-header-title{
-        font-size: 23px;
+        font-size: 18px;
     }
 }
 @media(max-width:325px){
     .demo-header-title{
-        font-size: 19px;
+        font-size: 16px;
     }
 }
 
@@ -1271,7 +1274,7 @@ button{
 @media(max-width:425px){
     .footer{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     .footer__container{
@@ -1286,14 +1289,35 @@ button{
         flex-direction:column;
      
     }
-    .footer-menu{   
-        padding-left: 0px;
-    }
+   
     .privacy-copyright{
         padding-left: 0px;
     }
     .privacy-other{
         padding-left: 0px;
+    }
+    .footer-menu{
+        padding-left: 0px;
+        flex-direction: column;
+    }
+    .product-list{
+        padding-left: 0px;
+        align-items: center;
+    }
+    .company-list{
+        padding-left: 0px;
+        align-items: center;
+    }
+    .social-list{
+        padding-left: 0px;
+        align-items: center;
+    }
+    .decor-svg{
+        margin-left: 20px;
+       
+    }
+    .quote-text{
+        padding-left: 34px;
     }
 }
 @media(max-width:375px){
