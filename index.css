@@ -390,7 +390,7 @@ button{
         width: 320px;
     }
 }
-@media(max-width:425px){
+@media(max-width:435px){
     .product__container{
         display: flex;
         flex-direction: column;
@@ -462,7 +462,7 @@ button{
     }
     
 }
-@media(max-width:425px){
+@media(max-width:435px){
     .customer__container{
         flex-direction: column;
         align-items: center;
@@ -520,7 +520,7 @@ button{
         width: 350px;
     }
 }
-@media(max-width:425px){
+@media(max-width:435px){
     .blog__container{
         flex-direction: column;
     }
@@ -1045,7 +1045,7 @@ button{
         width: 550px;
     }
 }
-@media(max-width:425px){
+@media(max-width:435px){
     .quote-text{
         width: 295px;
     }
@@ -1127,7 +1127,7 @@ button{
 
 }
 
-@media(max-width:425px){
+@media(max-width:435px){
     .demo-header-title{
         font-size: 25px;
     }
@@ -1249,7 +1249,7 @@ button{
         padding-left: 15px;
     }
 }
-@media(max-width:425px){
+@media(max-width:435px){
     .footer{
         display: flex;
         flex-direction: row;
