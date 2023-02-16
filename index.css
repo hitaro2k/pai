@@ -488,6 +488,7 @@ button{
     padding-top: 133px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 135px;
 }
 .customer--header-title{
     width: 300px;
@@ -503,6 +504,7 @@ button{
     .blog-image{
         width: 410px;
     }
+    
     
 }
 @media(max-width:768px){
@@ -546,6 +548,7 @@ button{
 }
 .header-title-inners{
     color: white;
+    font-weight: 400;
 }
 .head-text-subtitle{
     font-weight: 400;
@@ -559,6 +562,8 @@ button{
 .customers--tree-items{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding-bottom: 160px;
 }
 .customers--tree-volume__column{
     background: #242424;
@@ -571,8 +576,6 @@ button{
     border-radius: 4.5px;
     width: 350px;
     height: 320px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 .customers--tree-uplift__column{
     background: #242424;
@@ -631,4 +634,275 @@ button{
 }
 .header-tree-items{
     padding-left: 20px;
+}
+.tree--text{
+    color: white;
+    padding-left: 30px;
+}
+
+.tree--text-volume{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+.tree--text-efficiency{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    width: 308px;
+}
+.tree--text-uplift{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    width: 285px;
+}
+
+.tree--link-volume{
+    color: white;
+    font-weight: 200;
+}
+.tree--link-efficiency{
+    color: white;
+    font-weight: 200;
+}
+.tree--link-uplift{
+    color: white;
+    font-weight: 200;
+}
+.tree-link--wrap-volume{
+    margin-top: 35px;
+}
+.tree-link--wrap-uplift{
+    margin-top: 55px;
+}
+
+@media(max-width:1024px){
+    .tree-image{
+        width: 650px;
+    }
+    .header-title-inners{
+        font-size: 40px;
+    }
+    .head-text-subtitle{
+        font-size: 40px;
+    }
+    .neon-plus{
+        width: 35px;
+    }
+    .customers--tree-volume__column{
+        width: 250px;
+    }
+    .customers--tree-efficiency__column{
+        width: 250px;
+    }
+    .customers--tree-uplift__column{
+        width: 250px;
+    }
+    .tree-neon--line-blue{
+        width: 220px;
+    }
+    .tree-neon--line-light-blue{
+        width: 220px;
+    }
+    .tree-neon--line-purple{
+        width: 220px;
+    }
+    .tree--text{
+        padding-left: 25px;
+    }
+    .tree--text-volume{
+        font-size: 12px
+    }
+    .tree--text-efficiency{
+        font-size: 12px;
+        width: 202px;
+    }
+    .tree--text-uplift{
+        font-size: 12px;
+        width: 220px;
+    }
+    .tree-link--wrap-volume{
+        margin-top: 40px;
+    }
+}
+@media(max-width:920px){
+    .tree-image{
+        width: 550px;
+    }
+    .customers--tree-volume__column{
+        width: 220px;
+    }
+    .customers--tree-efficiency__column{
+        width: 220px;
+    }
+    .customers--tree-uplift__column{
+        width: 220px;
+    }
+    .tree-neon--line-blue{
+        width: 190px;
+    }
+    .tree-neon--line-light-blue{
+        width: 190px;
+    }
+    .tree-neon--line-purple{
+        width: 190px;
+    }
+    .tree--text-efficiency{
+        font-size: 11px;
+        width: 190px;
+    }
+    .tree--text-uplift{
+        font-size: 11px;
+        width: 176px;
+    }
+    .tree-link--wrap-efficiency{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:425px){
+    .header-tree-items{
+        padding-left: 5px;
+    }
+    .tree-items--cube{
+        width: 16px;
+        height: 20px;
+    }
+    .header-tree-text{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    
+    .header-title-inners{
+        font-size: 27px;
+    }
+    .head-text-subtitle{
+        font-size: 27px;
+    }
+    .tree-image{
+        width: 300px;
+    }
+    .customers--tree-volume__column{
+        width: 131px;
+    }
+    .customers--tree-efficiency__column{
+        width: 130px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .customers--tree-uplift__column{
+        width: 130px;
+    }
+    .neon-plus{
+        display: none;
+    }
+    .tree-neon--line-light-blue{
+        width: 100px;
+        height: 5px;
+    }
+    .tree-neon--line-blue{
+        width: 100px;
+        height: 5px;
+    }
+    .tree-neon--line-purple{
+        width: 100px;
+        height: 5px;
+    }
+   
+    .tree--text{
+        padding-left: 5px;
+    }
+    .tree--link-volume{
+        font-size: 9px;
+    }
+    .tree--link-efficiency{
+        font-size: 9px;
+    }
+    .tree--link-uplift{
+        font-size: 9px;
+    }
+    .tree--text-volume{
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .tree--text-efficiency{
+        font-size: 10px;
+        width: 116px;
+        text-align: center;
+        font-weight: 300;
+    }
+    .tree--text-uplift{
+        font-size: 9px;
+        width: 116px;
+        font-weight: 300; 
+        text-align: center;
+    }
+    .tree-link--wrap-uplift{
+        margin-top: 75px;
+    }
+    .tree-link--wrap-efficiency{
+        margin-top: 14px;
+    }
+}
+@media(max-width:375px){
+    .header-title-inners{
+        font-size: 24px;
+    }
+    .head-text-subtitle{
+        font-size: 24px;
+    }
+    .tree-image{
+        width: 260px;
+    }
+    .customers--tree-volume__column{
+        width: 115px;
+    }
+    .customers--tree-uplift__column{
+        width: 115px;
+    }
+    .customers--tree-efficiency__column{
+        width: 115px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .tree-neon--line-light-blue{
+        width: 85px;
+        height: 4px;
+    }
+    .tree-neon--line-blue{
+        width: 85px;
+        height: 4px;
+    }
+    .tree-neon--line-purple{
+        width: 85px;
+        height: 4px;
+    }
+    .tree--text-volume{
+        font-size: 10px;
+        width: 105px;
+    }
+    .tree--text-efficiency{
+        font-size: 10px;
+        width: 105px;
+    }
+    .tree--text-uplift{
+        font-size: 9px;
+        width: 105px;
+    }
+    .tree-link--wrap-uplift{
+        margin-top: 90px;
+    }
+}
+@media(max-width:325px){
+    .header-title-inners{
+        font-size: 20px;
+    }
+    .head-text-subtitle{
+        font-size: 20px;
+    }
 }
