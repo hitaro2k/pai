@@ -700,6 +700,38 @@ button{
 .tree-link--wrap-uplift{
     margin-top: 55px;
 }
+@media(max-width:1279.98px){
+    .customers--tree-volume__column{
+        width: 300px;
+    }
+    .customers--tree-efficiency__column{
+        width: 300px;
+    }
+    .customers--tree-uplift__column{
+        width: 300px;
+    }
+    .tree-neon--line-light-blue{
+        width: 265px;
+      
+    }
+    .tree-neon--line-blue{
+        width: 265px;
+     
+    }
+    .tree-neon--line-purple{
+        width: 265px;
+       
+    }
+    .tree--text-volume{
+        width: 262px;
+    }
+    .tree--text-efficiency{
+        width: 236px;
+    }
+    .tree--text-uplift{
+        width: 249px;
+    }
+}
 
 @media(max-width:1024px){
     .tree-image{
